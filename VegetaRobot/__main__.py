@@ -80,33 +80,29 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ ┗►  *What's Up Yoo! * ◄┛
+PM_START_TEXT = """
+<b>Hi 👋, Iam - 𝙻𝚞𝚗𝚊 -. </b>
+<b>Iam an advanced and anime themed group manager bot.. </b>
 
-~~ *I'm made with Saiyans blood* ~~
-
-~ *Wanna see my commands*[❗]({})
-*below click the help button!* ~
-
-──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
+<b>To know about my commands and their functions send /help or use below buttons.. </b>
 """ 
 
 buttons = [
     [
         InlineKeyboardButton(
-                            text="☑ Add Vegeta To Groups ☑",
-                            url="t.me/VegetaRobot?startgroup=true"),
+                            text="COMMANDS HELP",
+                            callback_data="help_back"),
                     ],
-                     [
-                       InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"),
-                       InlineKeyboardButton(text="UPDATES",  url=f"https://t.me/{UPDATES_CHANNEL}"),
-                    ],
-                   [
-                       InlineKeyboardButton(text="NETWORK", url=f"https://t.me/nandhabots"),
-                       InlineKeyboardButton(text="LOGS", url=f"https://t.me/vegetalogs"),
-                ],[ InlineKeyboardButton(text="COMMANDS HELP", callback_data="help_back"
-         ),
-    ],
-] 
+]               
+                       
+                    
+                   
+                       
+                       
+                
+         
+    
+
 
 HELP_STRINGS = """ *Hello There! Here you can get all of the help commands!
 - /donate - Steps to Donate Bot Owner 
