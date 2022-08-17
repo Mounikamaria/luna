@@ -81,10 +81,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-<b>Hi 👋, Iam - 𝙻𝚞𝚗𝚊 -. </b>
-<b>Iam an advanced and anime themed group manager bot.. </b>
+*Hi 👋, Iam - 𝙻𝚞𝚗𝚊 -.*
+*Iam an advanced and anime themed group manager bot 😜.. *
 
-<b>To know about my commands and their functions send /help or use below buttons.. </b>
+*To know about my commands and their functions send /help or use below button..*
 """ 
 
 buttons = [
