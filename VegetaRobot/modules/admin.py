@@ -435,7 +435,7 @@ def pin(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                "👉 View Mesaage", url=f"{message_link}")
+                                "🏷️ View Mesaage", url=f"{message_link}")
                         ]
                     ]
                 ), 
@@ -679,22 +679,24 @@ def button(update: Update, context: CallbackContext) -> str:
 
 __help__ = """
 *Admins only:*
- ✪︎ `/tagall` or `@all` for tag all group members.
- ✪︎ `/pin` & `/unpin`: pin msg and unpin msg.
- ✪︎ `/invitelink`*:* gets invitelink
- ✪︎ `/promote` & `/demote` promote user and demote user.
- ✪︎ `/title <title here>`*:* set custom title for admin.
- ✪︎ `/admincache`& `/adminlist`:refreshAdminslist and Show list of Admins.\n
- *gorup info changer*:
- ✪︎ `/setgpack`*:* reply eany sticker pack.
- ✪︎ `/setgpic`*:* reply to the image set chat pic.
- ✪︎ `/delgpic`*:* delete a chat pic.
- ✪︎ `/setgtitle`*:* (text) set group tilte.
- ✪︎ `/setdesc`*:* (text) set chat descrepicion.\n
+ • /tagall or @all *:* To tag all group members.
+ • /pin & /unpin *:* pin msg and unpin msg.
+ • /invitelink *:* gets invitelink
+ • /promote & /demote *:* promote user and demote user.
+ • /title <title here> *:* set custom title for admin.
+ • /admincache & /adminlist *:* refreshAdminslist and Show list of Admins.
+ 
+ *group info changer*:
+ *:*/setgpack *:* reply eany sticker pack.
+ • /setgpic *:* reply to the image set chat pic.
+ • /delgpic *:* delete a chat pic.
+ • /setgtitle (text) *:*  set group tilte.
+ • /setdesc (text) *:*  set chat descrepicion.
+ 
  *Delete messages*:
- ✪︎ `/del`: reply msg got delete.
- ✪︎ `/purge`: deletes all messages between this and the replied to message.
- ✪︎ `/purge <integer X>`: deletes the replied message, and X messages following it if replied to a message.
+ • /del *:* reply msg got delete.
+ • /purge *:* deletes all messages between this and the replied to message.
+ • /purge <integer X> *:* deletes the replied message, and X messages following it if replied to a message.
 """
 
 
