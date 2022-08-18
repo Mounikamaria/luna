@@ -687,7 +687,7 @@ __help__ = """
  • /admincache & /adminlist *:* refreshAdminslist and Show list of Admins.
  
  *group info changer*:
- *:*/setgpack *:* reply eany sticker pack.
+ • /setgpack *:* reply eany sticker pack.
  • /setgpic *:* reply to the image set chat pic.
  • /delgpic *:* delete a chat pic.
  • /setgtitle (text) *:*  set group tilte.
