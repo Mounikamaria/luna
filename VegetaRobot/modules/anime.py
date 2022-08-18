@@ -565,7 +565,7 @@ Get information about anime, manga or characters from [AniList](anilist.co).
  • /character <character> *:* returns information about the character.
  • /manga <manga> *:* returns information about the manga.
  • /user <user> *:* returns information about a MyAnimeList user.
- • /upcomin *:* returns a list of new anime in the upcoming seasons.
+ • /upcoming *:* returns a list of new anime in the upcoming seasons.
  • /kaizoku <anime> *:* search an anime on animekaizoku.com
  • /kayo <anime> *:* search an anime on animekayo.com
  • /airing <anime> *:* returns anime airing info.
