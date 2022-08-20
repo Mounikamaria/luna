@@ -513,22 +513,25 @@ def selfunban(context: CallbackContext, update: Update) -> str:
 
         
 __help__ = """
- ✪︎ `/punchme`*:* punches the user who issued the command.
- ✪︎ `/kickme`*:* kicks the user who issued the command.\n
+ • /punchme *:* punches the user who issued the command.
+ • /kickme *:* kicks the user who issued the command.
+ 
 *Muting a user commands:*
- ✪︎ `/mute <userhandle>`*:* silences a user. Can also be used as a reply, muting the replied to user.
- ✪︎ `/tmute <userhandle> x(m/h/d)`*:* mutes a user for x time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
- ✪︎ `/unmute <userhandle>`*:* unmutes a user. Can also be used as a reply, muting the replied to user.\n
+ • /mute <userhandle> *:* silences a user. Can also be used as a reply, muting the replied to user.
+ • /tmute <userhandle> x(m/h/d) *:* mutes a user for x time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
+ • /unmute <userhandle> *:* unmutes a user. Can also be used as a reply, muting the replied to user.
+ 
 *ban a user commands:*
- ✪︎ `/ban <userhandle>`*:* bans a user. (via handle, or reply)
- ✪︎ `/sban <userhandle>`*:* Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
- ✪︎ `/tban <userhandle> x(m/h/d)`*:* bans a user for `x` time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
- ✪︎ `/unban <userhandle>`*:* unbans a user. (via handle, or reply)
- ✪︎ `/kick <userhandle>`*:* Kicks a user out of the group, (via handle, or reply)
- ✪︎ `/punch <userhandle>`*:* Punches a user out of the group, (via handle, or reply)\n
+ • /ban <userhandle> *:* bans a user. (via handle, or reply)
+ • /sban <userhandle> *:* Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
+ • /tban <userhandle> x(m/h/d) *:* bans a user for `x` time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
+ • /unban <userhandle> *:* unbans a user. (via handle, or reply)
+ • /kick <userhandle> *:* Kicks a user out of the group, (via handle, or reply)
+ • /punch <userhandle> *:* Punches a user out of the group, (via handle, or reply)
+ 
  *ban channel commands:*
-  ✪︎ `/cban` or `/channelban` ban a channel. 
-  ✪︎ `/uncban` or `/channelunban`unban channel. 
+  • /cban or /channelban ban a channel. 
+  • /uncban or /channelunban unban channel. 
 """
 
 BAN_HANDLER = CommandHandler(["ban", "sban"], ban)
