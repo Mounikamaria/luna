@@ -72,5 +72,23 @@ async def approved(_, query: CallbackQuery):
               await bot.send_message(user_id, f"**Your Feedback:** `{text}` **Has been Approved by {query.from_user.mention} ✅**")
           else:
               await query.answer("Only devs can Approve this feedback.", show_alert=True)
+         
+         
+help = """
+
+• /feedback: found any bugs or commands not working and
+What's your experience In this bot everything you can use this module.😁
+
+Example:
+• /feedback: bot spamming!
+
+Thanks for your feedbacks!
+"""
+
+
+
+
+
+mod_name = "feedback"
                                 
   
